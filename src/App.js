@@ -218,6 +218,7 @@ function App() {
                   <div className='questionItemLayout'>
                     <div className='profileImg'>
                       <div></div>
+                      <div></div>
                     </div>
                     
                     <div className='chatListLayout'>
