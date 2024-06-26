@@ -29,12 +29,12 @@
 .startLogo div:nth-child(1){
   background-color: #69594d;
   color:#fffffe;
-  width: 530px;
-  height: 100px;
+  width: 170px;
+  height: 110px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 90px;
+  border-radius: 100px;
   box-shadow: 0 11px 3px rgba(0, 0, 0, 0.1);
 }
 
@@ -54,7 +54,7 @@
 }
 
 .startButton:hover {
-  background-color: #f8afaf; /* 호버 시 배경색 변경 */
+  background-color: #333333; /* 호버 시 배경색 변경 */
   color: #fff; /* 호버 시 텍스트 색상 변경 */
 }
 
@@ -63,14 +63,18 @@
   flex-direction: column;
   background-color: #bacee0;
   width: 100%;
+  max-width: 900px;
   height: 100%;
   overflow: hidden;
 }
+
 .mbtiTitle{
   display: flex;
   flex-direction: row;
   width: 100%;
   align-items: 15px;
+  align-items: center;
+  padding: 20px;
   box-sizing: border-box;
   font-weight: 700;
 }
@@ -86,7 +90,7 @@
   scrollbar-width: none;
 }
 
-.questionList::-wedkit-scrollbar{
+.questionList::-webkit-scrollbar{
   display: none;
 }
 
@@ -100,8 +104,8 @@
   background-color: #fff;
   padding-bottom: 10px;
   display: flex;
+  box-sizing: border-box;
   flex-direction: column;
-  align-items: flex-start;
 }
 
 .profileImg{
@@ -127,7 +131,7 @@
   background-color: #cbd6f2;
   width: 16px;
   height: 8px;
-  border-radius: 8px 8px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
   margin-top: 2px;
 }
 
@@ -140,6 +144,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  margin-bottom: 20px;
   max-width: 60vw;
   margin: 3px 0px 12px 0px;
 }
@@ -183,10 +188,12 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  box-shadow: 2px 2px 0px #ededed;
-  border:1px solid #ededed;
-  margin:0px 20px 15px 20px;
   border-radius: 10px;
-
+  box-shadow: 3px 3px 0px #ededed;
+  border:2px solid #ededed;
+  box-sizing: border-box;
+  padding:15px;
+  margin:0px 10px 15px 20px;
+  height: 100px;
 }
 
