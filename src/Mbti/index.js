@@ -153,7 +153,7 @@ const Mbti = (()=> {
   function linkCopy(){
     var textarea = document.createElement("textarea");
     document.body.appendChild(textarea);
-    textarea.value = 'https://sooani.github.io/mbti';
+    textarea.value = 'https://sooani.github.io/mbtitest';
     textarea.select();
     document.execCommand("copy");
     document.body.removeChild(textarea);
@@ -163,13 +163,13 @@ const Mbti = (()=> {
 
 // Facebook
 const shareFacebook = () => {
-  window.open("http://www.facebook.com/sharer/sharer.php?u=" + `https://sooani.github.io/mbti`);
+  window.open("http://www.facebook.com/sharer/sharer.php?u=" + `https://sooani.github.io/mbtitest`);
 }
 
 // Twitter
 const shareTwitter = () => {
   const text = '나의 MBTI는?'
-  window.open("https://twitter.com/intent/tweet?text=" + text + "&url=" + 'https://sooani.github.io/mbti')
+  window.open("https://twitter.com/intent/tweet?text=" + text + "&url=" + 'https://sooani.github.io/mbtitest')
 }
 
 const shareKakao = () => {
@@ -180,16 +180,16 @@ const shareKakao = () => {
       description: '친구와 대화하는 느낌으로 편하게 MBTI 검사를 받아보자!',
       imageUrl: logo,
       link: {
-        webUrl : 'https://sooani.github.io/mbti',
-        mobileWebUrl : 'https://sooani.github.io/mbti',
+        webUrl : 'https://sooani.github.io/mbtitest',
+        mobileWebUrl : 'https://sooani.github.io/mbtitest',
       },
     },
     buttons: [
       {
         title: '웹으로 이동',
         link: {
-          webUrl : 'https://sooani.github.io/mbti',
-          mobileWebUrl : 'https://sooani.github.io/mbti',
+          webUrl : 'https://sooani.github.io/mbtitest',
+          mobileWebUrl : 'https://sooani.github.io/mbtitest',
         },
       },
     ]
