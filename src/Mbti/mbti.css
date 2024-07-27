@@ -1,0 +1,229 @@
+.mbtiLayout {
+    width: 100vw;
+    height: calc(var(--vh, 1vh) * 100);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+}
+
+.startPageLayout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff385;
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    color: #69594d;
+    text-align: center;
+}
+
+.startLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+    justify-content: center;
+}
+
+.startLogo div:nth-child(1) {
+    background-color: #69594d;
+    color: #fffffe;
+    width: 170px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    box-shadow: 0 11px 3px rgba(0, 0, 0, 0.1);
+}
+
+.startLogo div:nth-child(2) {
+    margin-top: -15px;
+}
+
+.startButton {
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 20px;
+    /* 여백을 조정하여 중앙에 위치하도록 함 */
+    background-color: #dfdfdf;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+
+.startButton:hover {
+    background-color: #333333;
+    /* 호버 시 배경색 변경 */
+    color: #fff;
+    /* 호버 시 텍스트 색상 변경 */
+}
+
+.questionLayout {
+    display: flex;
+    flex-direction: column;
+    background-color: #bacee0;
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.mbtiTitle {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: 15px;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+
+.mbtiTitle div:nth-child(1) {
+    display: flex;
+    flex: 1;
+}
+
+.questionList {
+    flex-direction: column;
+    height: 100%;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.questionList::-webkit-scrollbar {
+    display: none;
+}
+
+.questionItemLayout {
+    display: flex;
+    flex: 1;
+    margin: 10px 15px 5px 15px;
+}
+
+.answerItemLayout {
+    width: 100%;
+    background-color: #fff;
+    padding-bottom: 10px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+.profileImg {
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    height: 40px;
+    background-color: #a1b6e9;
+    border-radius: 15px;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileImg div:nth-child(1) {
+    background-color: #cbd6f2;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+}
+
+.profileImg div:nth-child(2) {
+    background-color: #cbd6f2;
+    width: 16px;
+    height: 8px;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 2px;
+}
+
+.chatBox {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 3px;
+    margin-bottom: 12px;
+    max-width: 60vw;
+}
+
+.chatBox div:nth-child(1) {
+    color: #fff;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.chatBox div:nth-child(2) {
+    padding: 7px 10px 7px 10px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 10px;
+    max-width: 70vw;
+    width: fit-content;
+    text-align: left;
+    margin-left: -4px;
+}
+
+.aChatBox {
+    display: flex;
+    width: 100%;
+    color: #969696;
+    font-size: 22px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 25px;
+}
+
+.aChatBox div:nth-child(1) {
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.aChatBox div:nth-child(2) {
+    padding: 10px;
+}
+
+.answerBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px #ededed;
+    border: 2px solid #ededed;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 0px 10px 15px 20px;
+    height: 100px;
+    align-self: flex-end;
+}
+
+.answerBox:hover {
+    background-color: #fafafa;
+}
+
+.chatListLayout {
+    display: flex;
+    flex-direction: column;
+}
+
+.socialButtons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.socialIcon {
+    width: 50px;
+    height: auto;
+    margin: 0 10px;
+}
